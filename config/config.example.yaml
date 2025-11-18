@@ -1,0 +1,14 @@
+base_url: "https://httpbin.org"
+request:
+  timeout: 10
+  verify_ssl: true
+  default_headers:
+    User-Agent: "aqa-httpbin-tests/1.0"
+retry:
+  attempts: 3
+  delay_ms: 200
+  backoff_multiplier: 2.0
+  retry_on_status: [429, 500, 502, 504]
+reporting:
+  allure_dir: "reports/allure-results"
+
