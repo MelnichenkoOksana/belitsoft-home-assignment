@@ -28,8 +28,8 @@ The project uses **https://httpbin.org** as the target service and demonstrates 
 Clone the repository:
 
 ```bash
-git clone <your-repo-url>
-cd <project-folder>
+git clone https://github.com/MelnichenkoOksana/belitsoft-home-assignment.git
+cd belitsoft-home-assignment
 ```
 
 Create and activate a virtual environment:
